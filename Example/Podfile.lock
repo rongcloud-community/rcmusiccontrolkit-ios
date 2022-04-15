@@ -1,16 +1,46 @@
 PODS:
-  - RCMusicControlKit (0.1.0)
+  - FCFileManager (1.0.20)
+  - Masonry (1.1.0)
+  - RCCoreKit (0.0.1):
+    - FCFileManager
+    - SSZipArchive
+    - YYModel
+  - RCMusicControlKit (0.0.2.2):
+    - Masonry
+    - RCCoreKit
+    - SDWebImage
+    - YYModel
+  - SDWebImage (5.12.5):
+    - SDWebImage/Core (= 5.12.5)
+  - SDWebImage/Core (5.12.5)
+  - SSZipArchive (2.4.3)
+  - YYModel (1.0.4)
 
 DEPENDENCIES:
   - RCMusicControlKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FCFileManager
+    - Masonry
+    - RCCoreKit
+    - SDWebImage
+    - SSZipArchive
+    - YYModel
 
 EXTERNAL SOURCES:
   RCMusicControlKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RCMusicControlKit: da12b115828eac481a8cf0a673e29c6cd76e6f68
+  FCFileManager: e0f73316e6aa2eb04d2ff4caa75fe7df1ae44270
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  RCCoreKit: 3f143441ac62880b454cca9066f526a27c45d4ce
+  RCMusicControlKit: f2a0397b7e44f5f5d5e3096b4df92460cf5875e2
+  SDWebImage: 0905f1b7760fc8ac4198cae0036600d67478751e
+  SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: d4809736fe694366bcf8b29bbeea635f4aed0149
+PODFILE CHECKSUM: 8c2e74bed65b6e32e06b76ea450775fbcb5f2a27
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.11.3

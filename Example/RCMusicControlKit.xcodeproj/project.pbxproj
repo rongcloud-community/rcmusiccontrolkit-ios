@@ -23,6 +23,9 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		DC9F3851280954FA006A67BC /* RCMusicEngineDelegateMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9F384D280954FA006A67BC /* RCMusicEngineDelegateMediator.m */; };
+		DC9F3852280954FA006A67BC /* RCMusicEngineDataSourceMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9F384E280954FA006A67BC /* RCMusicEngineDataSourceMediator.m */; };
+		DC9F3853280954FA006A67BC /* RCMusicEnginePlayerMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9F384F280954FA006A67BC /* RCMusicEnginePlayerMediator.m */; };
 		FE92ECEC880798F026F7F4BD /* Pods_RCMusicControlKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2FB3B6E61E3A0B513B3660 /* Pods_RCMusicControlKit_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,9 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		123CC3A41359E832E457A32B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		123CC3A41359E832E457A32B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1336C81E9209047EAA218419 /* Pods_RCMusicControlKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RCMusicControlKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E6416544AD9CEB1C639DA10 /* RCMusicControlKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RCMusicControlKit.podspec; path = ../RCMusicControlKit.podspec; sourceTree = "<group>"; };
+		1E6416544AD9CEB1C639DA10 /* RCMusicControlKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RCMusicControlKit.podspec; path = ../RCMusicControlKit.podspec; sourceTree = "<group>"; };
 		5DAEE0AC58D95795F19CC08E /* Pods-RCMusicControlKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCMusicControlKit_Example.release.xcconfig"; path = "Target Support Files/Pods-RCMusicControlKit_Example/Pods-RCMusicControlKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* RCMusicControlKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCMusicControlKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,12 +64,18 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7BE12B8BECB507B455E159E6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7BE12B8BECB507B455E159E6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		838B61102A407FB7FF6B6622 /* Pods-RCMusicControlKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCMusicControlKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-RCMusicControlKit_Example/Pods-RCMusicControlKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B2FB3B6E61E3A0B513B3660 /* Pods_RCMusicControlKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RCMusicControlKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C3A402F7B00CF41597398A /* Pods-RCMusicControlKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCMusicControlKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-RCMusicControlKit_Tests/Pods-RCMusicControlKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D01C527AA09DBCD191BFF8B8 /* Pods-RCMusicControlKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCMusicControlKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-RCMusicControlKit_Tests/Pods-RCMusicControlKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DC9F384B280954F9006A67BC /* RCMusicEngineDelegateMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCMusicEngineDelegateMediator.h; sourceTree = "<group>"; };
+		DC9F384C280954F9006A67BC /* RCMusicEnginePlayerMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCMusicEnginePlayerMediator.h; sourceTree = "<group>"; };
+		DC9F384D280954FA006A67BC /* RCMusicEngineDelegateMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCMusicEngineDelegateMediator.m; sourceTree = "<group>"; };
+		DC9F384E280954FA006A67BC /* RCMusicEngineDataSourceMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCMusicEngineDataSourceMediator.m; sourceTree = "<group>"; };
+		DC9F384F280954FA006A67BC /* RCMusicEnginePlayerMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCMusicEnginePlayerMediator.m; sourceTree = "<group>"; };
+		DC9F3850280954FA006A67BC /* RCMusicEngineDataSourceMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCMusicEngineDataSourceMediator.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +147,12 @@
 				6003F5A5195388D20070C39A /* RCMUSICViewController.h */,
 				6003F5A6195388D20070C39A /* RCMUSICViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
+				DC9F3850280954FA006A67BC /* RCMusicEngineDataSourceMediator.h */,
+				DC9F384E280954FA006A67BC /* RCMusicEngineDataSourceMediator.m */,
+				DC9F384B280954F9006A67BC /* RCMusicEngineDelegateMediator.h */,
+				DC9F384D280954FA006A67BC /* RCMusicEngineDelegateMediator.m */,
+				DC9F384C280954F9006A67BC /* RCMusicEnginePlayerMediator.h */,
+				DC9F384F280954FA006A67BC /* RCMusicEnginePlayerMediator.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -193,7 +208,6 @@
 				C2C3A402F7B00CF41597398A /* Pods-RCMusicControlKit_Tests.debug.xcconfig */,
 				D01C527AA09DBCD191BFF8B8 /* Pods-RCMusicControlKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +222,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				FE599F2E038E26F17BB636C8 /* [CP] Embed Pods Frameworks */,
+				760EA2AFABD2DEC0326C8605 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,6 +262,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = xuefeng;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 4BHYNKLL6J;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +275,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -295,6 +313,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		760EA2AFABD2DEC0326C8605 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RCMusicControlKit_Example/Pods-RCMusicControlKit_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FCFileManager/FCFileManager.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/RCCoreKit/RCCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/RCMusicControlKit/RCMusicControlKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SSZipArchive/SSZipArchive.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FCFileManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCMusicControlKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSZipArchive.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RCMusicControlKit_Example/Pods-RCMusicControlKit_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7EAFE20154EF21A07B3BBAA6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -339,24 +387,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FE599F2E038E26F17BB636C8 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RCMusicControlKit_Example/Pods-RCMusicControlKit_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/RCMusicControlKit/RCMusicControlKit.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCMusicControlKit.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RCMusicControlKit_Example/Pods-RCMusicControlKit_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -366,6 +396,9 @@
 			files = (
 				6003F59E195388D20070C39A /* RCMUSICAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* RCMUSICViewController.m in Sources */,
+				DC9F3852280954FA006A67BC /* RCMusicEngineDataSourceMediator.m in Sources */,
+				DC9F3851280954FA006A67BC /* RCMusicEngineDelegateMediator.m in Sources */,
+				DC9F3853280954FA006A67BC /* RCMusicEnginePlayerMediator.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -449,7 +482,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -482,7 +515,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -494,9 +527,11 @@
 			baseConfigurationReference = 838B61102A407FB7FF6B6622 /* Pods-RCMusicControlKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4BHYNKLL6J;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RCMusicControlKit/RCMusicControlKit-Prefix.pch";
 				INFOPLIST_FILE = "RCMusicControlKit/RCMusicControlKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -510,9 +545,11 @@
 			baseConfigurationReference = 5DAEE0AC58D95795F19CC08E /* Pods-RCMusicControlKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4BHYNKLL6J;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RCMusicControlKit/RCMusicControlKit-Prefix.pch";
 				INFOPLIST_FILE = "RCMusicControlKit/RCMusicControlKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
