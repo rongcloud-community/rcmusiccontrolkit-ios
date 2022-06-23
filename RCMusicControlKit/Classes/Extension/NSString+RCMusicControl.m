@@ -27,10 +27,10 @@
     if ([self isEqualToString:@"0"]) {
         return self;
     }
-    if ([self integerValue] == 0) {
-        NSAssert(NO, @"sizeFormatString string convert to int fail");
+    if ([self floatValue] == 0) {
+        NSAssert(NO, @"sizeFormatString string convert to number fail");
     }
-    return [NSByteCountFormatter stringFromByteCount:[self integerValue] * 1024 * 1024 countStyle:NSByteCountFormatterCountStyleFile];;
+    return [NSByteCountFormatter stringFromByteCount:[self floatValue] * 1024 * 1024 countStyle:NSByteCountFormatterCountStyleFile];;
 }
 
 @end
